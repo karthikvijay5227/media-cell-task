@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style4.css">
+	<link rel="shortcut icon" href="cec_logo_300.png" type="image/x-icon"> 
+	<title>
+		Basic Details
+	</title>
+</head>
+<body>
+	<form id="form" action="thanks.html">
+
+        <div class="form-control">
+            <label for="role" id="label-role">
+                How do you came to know about this volunteering?
+            </label>
+            
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option value="student">Select</option>
+                <option value="intern">Whatsapp</option>
+                <option value="professional">Instagram</option>
+                <option value="other">Facebook</option>
+                <option value="intern">Other</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label>
+                Do you have done any internship before?
+            </label>
+
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio" id="recommed-1" name="recommed">Yes</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio" id="recommed-2" name="recommed">No</input>
+            </label>
+            
+        </div>
+		<!-- Details -->
+		<div class="form-control">
+			<label for="name" id="label-name">
+			 Your Github URL
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text" id="name"/>
+		</div>
+
+		<div class="form-control">
+			<label for="text" id="label-email">
+				Your Linkedin URL
+			</label>
+
+			<!-- Input Type Email-->
+			<input type="text" id="email" />
+		</div>
+
+		<div class="form-control">
+            <label>
+                Do you work better alone or with a team? 
+            </label>
+
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio" id="recommed-1" name="recommed">Alone</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio" id="recommed-2" name="recommed">Team</input>
+            </label>
+            
+        </div>
+        <div class="form-control">
+			<label for="comment">
+				Why are you interested in this task? 
+			</label> 
+
+			<!-- multi-line text input control -->
+			 <textarea name="comment" id="comment" >
+			</textarea>
+		</div>  
+
+
+
+		<div class="form-control">
+			<label> What skills can you bring to the internship?
+				<small>(Check all that apply)</small>
+			</label>
+			<!-- Input Type Checkbox -->
+			<label for="inp-1">
+				<input type="checkbox" name="inp">Creativity.</input></label>
+			<label for="inp-2">
+				<input type="checkbox" name="inp">Interpersonal Skills.</input></label>
+			<label for="inp-3">
+				<input type="checkbox" name="inp">Critical Thinking.</input></label>
+			<label for="inp-4">
+				<input type="checkbox" name="inp">Problem Solving.</input></label>
+			<label for="inp-5">
+				<input type="checkbox" name="inp">Public Speaking</input></label>
+			<label for="inp-6">
+				<input type="checkbox" name="inp">Customer Service Skills.</input></label>
+			<label for="inp-7">
+				<input type="checkbox" name="inp">Teamwork Skills.</input></label>
+			<label for="inp-7">
+				<input type="checkbox" name="inp">Communication.</input></label>
+			<label for="inp-7">
+		</div>
+
+		 <div class="form-control">
+			<label for="comment">
+				Any comments or suggestions
+			</label> 
+
+			<!-- multi-line text input control -->
+			 <textarea name="comment" id="comment" placeholder="Enter your comment here">
+			</textarea>
+		</div>  
+
+		<!-- Multi-line Text Input Control-->
+		<span>
+			<button type="submit" value="submit" class="gn">Submit</button>
+		</span>
+	</form>
+        <footer>
+		<p>
+			&copy;2022 Media Cell
+		</p>
+	</footer>
+</body>
+
+</html>

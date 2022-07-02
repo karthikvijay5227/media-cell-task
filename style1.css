@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(228, 198, 198);
+}
+
+.f{
+    text-align: center;
+    position:relative ;
+    bottom:0.5em;
+}
+.to_nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(196, 50, 50);
+    border-radius: 28px;
+    padding: 0.9em 0.9em;
+    margin:0.3em;
+}
+
+.s {
+    text-decoration: none;
+    color: rgb(206, 226, 245);
+    font-weight: 550;
+}
+
+#srch {
+    border-radius: 10px;
+    border: 2x solid red;
+}
+
+.tes {
+    position: relative;
+    top: 1.9em;
+    width: 30vw;
+    height: 50vh;
+}
+
+.start {
+    text-align: center;
+}
+.cont{
+    position: relative;
+    top: 0.7em;
+}
+
+.sr{
+    text-align: center;
+    padding: 2.3em 1.4em;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 2em;
+    color:brown;
+}
+
+.s:hover{
+    color:blue;
+}

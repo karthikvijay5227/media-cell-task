@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(228, 198, 198);
+}
+
+.to_nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(196, 50, 50);
+    border-radius: 28px;
+    padding: 0.9em 0.9em;
+    margin:0.3em;
+}
+
+.s {
+    text-decoration: none;
+    color: rgb(206, 226, 245);
+    font-weight: 550;
+}
+
+#srch {
+    border-radius: 10px;
+    border: 2x solid red;
+}
+.cont{
+position: relative;
+top: 0.7em;
+}
+
+.s:hover{
+    color:blue;
+}
+
+.f{
+    text-align: center;
+    position:relative ;
+    bottom:0.5em;
+}

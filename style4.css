@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+		h1{
+			color: rgb(33, 28, 104);
+		}
+
+		/* Styling the Body element i.e. Color,
+		Font, Alignment */
+		body {
+			background-color: rgb(228, 198, 198);
+			font-family: 'Ubuntu', sans-serif;
+			text-align: center;
+		}
+
+		/* Styling the Form (Color, Padding, Shadow) */
+		form {
+			background-color: rgba(47, 123, 146, 0.966);
+			max-width: 700px;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+			border-radius: 24px;
+		}
+		.gn{
+				border: 22px;
+				width: 100px;
+				border-radius: 32px;
+				margin: auto;
+		}
+
+		.gn:hover {
+			background-color: #f8f1ac;
+		}
+
+		/* Styling form-control Class */
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+			color: aliceblue;
+		}
+
+		/* Styling form-control Label */
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		/* Styling form-control input,
+		select, textarea */
+		.form-control input,select,textarea {
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+		/* Styling form-control Radio
+		button and Checkbox */
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+		
+		/* Styling Button */
+		button {
+			/* background-color: #010a06; */
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			font-size: 21px;
+			display: block;
+			width: 100%;
+			margin-top: 50px;
+			margin-bottom: 20px;
+		}
