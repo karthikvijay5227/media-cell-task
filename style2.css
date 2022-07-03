@@ -21,9 +21,22 @@ body {
     border-radius: 10px;
     border: 2x solid red;
 }
+
+input {
+    text-align: center;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+:-moz-placeholder {
+    text-align: center;
+}
+
 .cont{
-position: relative;
-top: 0.7em;
+    position: relative;
+    top: 0.7em;
 }
 
 .s:hover{
