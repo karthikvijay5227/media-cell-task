@@ -58,7 +58,7 @@ body {
 @media only screen and (max-width: 572px) {
     .to_nav{
         flex-wrap: wrap;
-        flex-direction: column;
+        flex-direction: column-reverse;
         text-align: center;
     }
 }
