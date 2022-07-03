@@ -24,9 +24,20 @@ body {
 
 #srch {
     border-radius: 10px;
-    border: 2x solid red;
+    border: 2px solid red;
 }
 
+input {
+  text-align: center;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder {
+  text-align: center;
+}
 .tes {
     position: relative;
     top: 1.9em;
