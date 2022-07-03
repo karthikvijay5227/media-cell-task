@@ -35,3 +35,11 @@ top: 0.7em;
     position:relative ;
     bottom:0.5em;
 }
+
+@media only screen and (max-width: 572px) {
+    .to_nav{
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+    }
+}
